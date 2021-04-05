@@ -8,8 +8,8 @@ from analyze import predict
 
 flags = Namespace(
     batch_size=32,
-    embedding_size=12,
-    max_batch=2000,
+    embedding_size=16,
+    max_batch=100,
     hidden_size=128,
     gradients_norm=1.0,
     learning_rate=1e-3,
